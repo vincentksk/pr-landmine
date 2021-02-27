@@ -1,7 +1,4 @@
-on:
-  pull_request:
-    paths:
-      - 'demo-app/**'
+on: pull_request
 
 defaults:
   run:
