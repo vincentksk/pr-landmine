@@ -51,3 +51,6 @@ Simply add the following action to your existing pull request workflow:
 
 # Contribution
 Found an issue or see something cool that's missing? Pull requests and issues are warmly accepted!
+
+# Test
+test
