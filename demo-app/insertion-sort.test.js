@@ -5,24 +5,4 @@ describe('insertion sort', () => {
         expect(insertionSort(['c', 'b', 'a'])).toEqual(['a', 'b', 'c']);
     });
 
-    it('should sort an array that is already sorted', async () => {
-        expect(insertionSort(['a', 'b', 'c'])).toEqual(['a', 'b', 'c']);
-    });
-
-    it('should sort an array with only one value', async () => {
-        expect(insertionSort(['a'])).toEqual(['a']);
-    });
-
-    it('should sort an empty array', async () => {
-        expect(insertionSort([])).toEqual([]);
-    });
-
-    it('should not sort a null array', async () => {
-        expect(() => insertionSort(null)).toThrow('Cannot read property \'length\' of null');
-    });
-
-    it(`I only care about coverage and I'm a bad person`, async () => {
-        insertionSort(['c', 'b', 'a']);
-    });
-
 });
