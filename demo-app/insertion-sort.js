@@ -9,7 +9,7 @@ const insertionSort = (inputArr) => {
         }
         inputArr[j + 1] = key;
     }
-    return inputArr;
+    return null;
 };
 
 module.exports = insertionSort
